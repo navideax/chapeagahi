@@ -1,0 +1,93 @@
+html {
+	direction:rtl;
+}
+img{
+	width: 100%;
+}
+.page {
+	display:block;
+	background-color:#FFF;
+	color:#000;
+	padding:1.5cm;
+	width:18cm;
+	size:A4;
+	margin:auto;
+	border:1px #eee dashed;
+}
+a {
+	color:#3366CC;
+	text-decoration:none;
+}
+.post {
+	display:block;
+	padding:15px;
+	text-align:justify;
+}
+.Arial {
+}
+.Tahoma,.data {
+	font-weight:100;
+	font-size:13px;
+	color:#555;
+}
+.text-left {
+	text-align:left;
+}
+.Verdana {
+	color:#000 !important;
+}
+.BTitrBold,
+h1, h2, h3, h4, h5 {
+	font-weight:normal;
+	color:#000;
+}
+
+.BYekan,.post p {
+	font-weight:normal !important;
+	color:#000;
+	font-size:12pt;
+	margin:0;
+}
+pre {
+	direction:ltr !important;
+	text-align:left !important;
+	background:#eee;
+	word-break:normal;
+	overflow:hidden;
+	text-wrap:normal;
+}
+h2.title-print{
+	font-size: 34px;
+	font-weight: 800;
+	text-align: center;
+	margin: 0;
+	padding: 20px 10px 10px;
+	background: #6c6c6c;
+	color: #ffffff;
+	text-shadow: 0 0 8px black;
+}
+h2.title-print span{
+	font-size: 20px!important;
+	font-weight: 600;
+	color: #ffffff;
+
+}
+.clearfix {
+	overflow: auto;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.savalankhabar{
+	width: 100%;
+	text-align: center;
+	float: right;
+	letter-spacing: 9px;
+	background: #f2ff00;
+	font-weight: 400;
+}
+.rotitr{
+	color: #ffffff!important;
+}
